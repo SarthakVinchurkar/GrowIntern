@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="img/logo.PNG" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill-section">Skills</a></li>
+            <li><a href="#protfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <br /><span>Sarthak Vinchurkar</span></h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/aboutme.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Welcome to my corner of the digital world! I'm Sarthak Vinchurkar,
+              a passionate and innovative software web developer dedicated to
+              crafting exceptional online experiences. With a blend of technical
+              expertise and creative flair, I thrive on transforming ideas into
+              functional and visually appealing websites.My toolkit comprises an
+              array of modern programming languages, frameworks, and
+              technologies. I'm well-versed in HTML, CSS, JavaScript, React,
+              Node.js, mongoDB. This proficiency empowers me to build
+              responsive, user-centric websites that not only look fantastic but
+              also function flawlessly across various devices and platforms.n
+              the dynamic field of web development, stagnation is not an option.
+              I'm dedicated to staying updated with the latest trends, best
+              practices, and emerging technologies. Thank you for stopping by
+              and getting to know a bit about me as a software web developer. If
+              you're seeking a partner to bring your digital dreams to life, I'm
+              excited to collaborate and create something remarkable together.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-links" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />Developing Web Applications
+                </li>
+                <li>
+                  <span>Web Designing</span><br />Designing Web Interfaces
+                </li>
+                <li>
+                  <span>App Development</span><br />Developing Android
+                  Applications
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023 - Current</span><br />Web Developer Internship at
+                  GroIntern
+                </li>
+                <li>
+                  <span>2023 August - Current</span><br />Designing Web
+                  application at Codsoft
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023</span><br />Btech at Shri Guru Gobind Singhji
+                  Institute of Engineering and Technology, Nanded
+                </li>
+                <li>
+                  <span>2022</span><br />Diploma from Government Ploytechnic
+                  Amravati
+                </li>
+                <li>
+                  <span>2019</span><br />S.S.C from Narayandas Laddha High
+                  School, Amravati
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <a href="img/sarthak vinchurkar cv.pdf" download class="btn btn2"
+          >Download Resume</a
+        >
+      </div>
+    </div>
+
+    <section id="skill-section">
+      <div class="header skill-head">
+        <h1 class="sub-title">My<span>Skills</span></h1>
+        <p>Here is my skills to represent my Expertise</p>
+      </div>
+      <div class="skill-main">
+        <div class="skill-bar">
+          <div class="info">
+            <p>HTML</p>
+            <p class="percent">90%</p>
+          </div>
+          <div class="bar">
+            <span class="html"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info">
+            <p>CSS</p>
+            <p class="percent">85%</p>
+          </div>
+          <div class="bar">
+            <span class="css"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info">
+            <p>JAVASCRIPT</p>
+            <p class="percent">67%</p>
+          </div>
+          <div class="bar">
+            <span class="javascript"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info">
+            <p>JAVA</p>
+            <p class="percent">80%</p>
+          </div>
+          <div class="bar">
+            <span class="java"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info">
+            <p>PYTHON</p>
+            <p class="percent">80%</p>
+          </div>
+          <div class="bar">
+            <span class="python"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info">
+            <p>SQL</p>
+            <p class="percent">90%</p>
+          </div>
+          <div class="bar">
+            <span class="sql"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info">
+            <p>REACT JS</p>
+            <p class="percent">70%</p>
+          </div>
+          <div class="bar">
+            <span class="react"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info">
+            <p>NODE JS</p>
+            <p class="percent">75%</p>
+          </div>
+          <div class="bar">
+            <span class="node"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="protfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="img/work1.PNG" />
+            <div class="layer">
+              <h3>Disney + hotstar clone website</h3>
+              <p>
+                The site contains the Disney + hotstar home page clone and it is
+                created using html css and js
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/work2.PNG" />
+            <div class="layer">
+              <h3>Calculator Web application</h3>
+              <p>
+                The site contains the Calculator which performs the basic
+                mathermatical operations and it is created using the html css
+                and js
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/work3.PNG" />
+            <div class="layer">
+              <h3>To-do-list App</h3>
+              <p>
+                The site contains the to-do-list app which add and remove the
+                task in the list and save the tasks in the local storage and it
+                is created using html css and js
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fas fa-paper-plane"></i>sarthakvinchurkar194@gmail.com
+            </p>
+            <div class="contact-icons">
+              <p><i class="fas fa-phone-square-alt"></i>9503434150</p>
+              <div class="social-icons">
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                <a href="#"><i class="uil uil-twitter"></i></a>
+                <a href="#"><i class="uil uil-instagram"></i></a>
+                <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+              </div>
+            </div>
+            <a href="img/sarthak vinchurkar cv.pdf" download class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; Sarthak Vinchurkar. Made with &#10084;</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-links");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
